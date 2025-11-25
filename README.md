@@ -33,9 +33,7 @@ Ultimately, the probabilistic deep learning models provided the most nuanced res
 
 The deep learning models successfully generated dynamic uncertainty intervals. The LSTM (left) was well-calibrated, but its intervals were sometimes too narrow for extreme spikes. The TFT (right) produced more cautious and robust intervals that better captured the data's true volatility.
 
-| LSTM Probabilistic Forecast | TFT Probabilistic Forecast |
-| :---: | :---: |
-| 
+ 
 
 ---
 
