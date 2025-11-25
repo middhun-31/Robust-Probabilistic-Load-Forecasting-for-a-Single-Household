@@ -35,7 +35,7 @@ The deep learning models successfully generated dynamic uncertainty intervals. T
 
 | LSTM Probabilistic Forecast | TFT Probabilistic Forecast |
 | :---: | :---: |
-| <img src="httpsI HAVE UPLOADED THIS IMAGE. PASTE IT HERE. fileId: image_ecfb3e.png" alt="LSTM Forecast Plot" width="400"> | <img src="I HAVE UPLOADED THIS IMAGE. PASTE IT HERE. fileId: image_ecfb63.png" alt="TFT Forecast Plot" width="400"> |
+| 
 
 ---
 
@@ -45,13 +45,13 @@ The deep learning models successfully generated dynamic uncertainty intervals. T
 
 A primary challenge was a multi-month data gap. A controlled experiment was conducted to select an imputation method. We found that a simple **Linear Imputer** failed to replicate the data's bimodal distribution. A **Seasonal Imputer** (using the mean of the same hour and day-of-week) was chosen as it successfully preserved the underlying structure of the data.
 
-<img src="I HAVE UPLOADED THIS IMAGE. PASTE IT HERE. fileId: image_9c7364.png" alt="Imputation comparison plot" width="600">
+
 
 ### 2. Failure Analysis of Classical Models
 
 Classical models like SARIMA (and Prophet) completely failed to model the data. They are not equipped to handle the sharp, non-linear "regime-switch" between high-usage weekdays and near-zero-usage weekends, resulting in massive prediction errors. This failure justified the move to more complex machine learning models.
 
-<img src="I HAVE UPLOADED THIS IMAGE. PASTE IT HERE. fileId: image_ecf815.png" alt="SARIMA failure plot" width="600">
+
 
 ### 3. Feature Engineering
 
