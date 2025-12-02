@@ -96,4 +96,9 @@ To enable the ML models, we engineered a rich feature set, including:
     ```bash
     jupyter notebook
     ```
-5.  Open and run the notebooks in numerical order.
+5.  Open Preprocessing_and_Imputation.ipynb and in run in order to precprocess the data.
+     - If running in colab run the step to connect your drive or else download the data from kaggle to your local machine.
+     - Using colab recommended as larger models make use of GPU
+     - Select runtime as T4 in colab
+6.  Open Modeling_and_Evaluation.ipynb and run in order to execute the modelling process.
+     = Using colab recommended
